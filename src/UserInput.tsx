@@ -41,7 +41,9 @@ export const UserInput: FunctionComponent<UserInputProps> = ({
           setInputFocussed(false);
         }}
         onKeyDown={(event: KeyboardEvent) => {
-          if (event.key === "Enter") submitUserName(userName);
+          if (event.key === "Enter") {
+            submitUserName(userName);
+          }
           if (event.key === "Escape") setInputFocussed(false);
         }}
         options={allUserNames}
