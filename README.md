@@ -8,7 +8,6 @@ This application allows you to search for the tweets from a number of users. It 
 - Add tests
 - Better error handling
 - Improve styling
-- Select
 
 # Dependency choices made
 
